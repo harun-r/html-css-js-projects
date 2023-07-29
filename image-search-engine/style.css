@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: darkcyan;
+}
+
+.el-container{
+    max-width: 1280px;
+    width:100%;
+    margin: 0 auto;
+}
+.el-head {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.el-head h3{
+    margin-top: 50px;
+    font-size: 20px;
+}
+.el-head form{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    width:100%;
+}
+.el-head input{
+    background-color: #fff;
+    border: none;
+    width: calc(100% - 200px);
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    padding: 5px 15px;
+}
+.el-head input:focus{
+    outline: none;
+}
+.el-head button{
+    background-color: cadetblue;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.el-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.el-content a{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.el-content a img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+.el-more{
+    text-align: center;
+    margin: 30px 0;
+}
+.el-more button{
+    background-color: burlywood;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: none;
+}

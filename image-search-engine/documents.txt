@@ -1,0 +1,16 @@
+// Project Goal
+Making a image Search engine ith HTML CSS JS
+
+// Features
+1. Image Search
+2. Sho image in Grid
+3. Sho more option
+
+
+// Function
+1. Search input / submit
+2. unsplash API fetch
+3. Map image
+4. Sho more Button
+
+
