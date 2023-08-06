@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    background-color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-list,
+.right-list{
+    width: 48%;
+    border: 2px dashed #ffffff;
+    padding: 30px;
+    cursor: move;
+}
+.list-item{
+    background-color: purple;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+.list-item img{
+    margin-right: 10px;
+}
